@@ -21,7 +21,7 @@ public class StudentManagement {
         while (true) {
             System.out.println("\n1. Add Student\n2. View Students\n3. Update Student\n0. Exit");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Clear buffer
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
